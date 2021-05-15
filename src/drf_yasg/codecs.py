@@ -4,7 +4,7 @@ import logging
 from collections import OrderedDict
 
 from django.utils.encoding import force_bytes
-from ruamel import yaml
+import yaml
 
 from . import openapi
 from .errors import SwaggerValidationError
